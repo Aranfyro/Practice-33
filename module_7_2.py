@@ -2,7 +2,7 @@
 # Задача "Записать и запомнить":
 
 def custom_write(file_name, strings):
-    file = open(file_name, 'a+', encoding='utf-8')
+    file = open(file_name, 'w', encoding='utf-8')
     strings_positions = {}
     num_of_str = 1
     for i in strings:
